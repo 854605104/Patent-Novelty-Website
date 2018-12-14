@@ -1,0 +1,124 @@
+/*
+Orange: #f7931e
+Deep Blue: #135187
+Deepest Blue: #334361
+Light Blue:#3195c3
+Lighter Blue: #f1f8fe
+*/
+
+.header-how{
+  background-image: url("img/header-how.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 320px;
+  text-align: center;
+}
+
+.header-how h1{
+  color: #135187;
+  padding-top: 150px;
+  margin-bottom: 20px;
+}
+
+.header-how a{
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f1f8fe;
+}
+
+.data-source{
+  margin-top: 30px;
+  text-align: center;
+}
+
+h2{
+  color: #135187;
+  font-weight: bold;
+  font-size: 210%;
+  word-spacing: 1px;
+}
+h2 span{
+  color: #f7931e;
+}
+
+h4{
+  color: #135187;
+  font-weight: 500;
+  font-size: 100%;
+  word-spacing: 0;
+}
+
+.measure-criteria{
+  margin-top: 30px;
+  text-align: center;
+  background-color: #f1f8fe;
+  background-size: auto;
+}
+.measure-criteria-content{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.criteria h2{
+  text-align: end;
+}
+.criteria h4{
+  text-align: start;
+}
+.criteria h4 span{
+  color: #f7931e;
+  font-weight: bold;
+}
+.criteria img{
+  float: left;
+  width: 40px;
+}
+.criteria{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.data-analysis,
+.data-analysis-2{
+  margin-top: 20px;
+  text-align: center;
+}
+.data-analysis-2{
+  background-color: #f1f8fe;
+  background-size: auto;
+}
+
+.distribution-map,
+.distribution-map-2{
+  margin-top: 30px;
+}
+
+.distribution-map h3,
+.distribution-map-2 h3{
+  color: #f7931e;
+}
+
+.distribution-map img{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 700px;
+}
+
+.distribution-map-2 img{
+  margin-top: 40px;
+  width: 400px;
+  margin-bottom: 40px;
+}
+
+.data-analysis-2-content,
+.data-analysis-content{
+  padding-top: 20px;
+}
+
+.conclusion{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}

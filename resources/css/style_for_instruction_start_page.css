@@ -1,0 +1,429 @@
+/*
+Orange: #f7931e
+Deep Blue: #135187
+Deepest Blue: #334361
+Light Blue:#3195c3
+Lighter Blue: #f1f8fe
+*/
+
+/* ----------------------------------------------- */
+/* Basic setup */
+/* ----------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Montserrat','思源黑体' ,sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: auto;
+}
+/* ----- HEADINGS ----- */
+h1 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size:300%;
+  word-spacing: 8px;
+  letter-spacing: 1px;
+
+}
+h3{
+  line-height: 90%;
+}
+
+
+h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-style: 50%;
+  word-spacing: 4px;
+
+}
+
+/* ----- PARAGRAPHS ----- */
+.box p{
+  font-size: 75%;
+  line-height: 150%;
+  font-weight: lighter;
+  color:#555555;
+}
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited,
+input[type=submit] {
+  display: inline-block;
+  padding: 5px 20px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #f7931e;
+  color: #f7931e;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+  border: 1px solid #cf6d17;
+  color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* Header */
+/* ----------------------------------------------- */
+
+/* ----- NAV ----- */
+.logo1,
+.logo2 {
+  height:50px;
+  width:auto;
+  float:left;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.nav-box{
+  box-shadow: 0 2px 6px #efefef;
+}
+
+.js--main-nav{
+  float:right;
+  list-style:none;
+  margin-top:20px;
+  margin-right: 50px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #555;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 75%;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #135187;
+}
+
+/* ----- HEADER ----- */
+.header-box {
+  background-image: linear-gradient(rgba(19, 81, 135, 0.8), rgba(19, 81, 135, 0.8)), url("img/header.png");
+  background-size: cover;
+  background-position: center;
+  height: 205px;
+  text-align: center;
+}
+
+.header-h1{
+  padding-top: 70px;
+}
+
+/* ----------------------------------------------- */
+/* Instruction-01 */
+/* ----------------------------------------------- */
+
+/* -----Headline & Subtitle-----*/
+.instruction-01-headline{
+  text-align: center;
+  color: #135187;
+  font-weight: 700;
+  font-style: italic;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 130%;
+}
+.instruction-01-subtitle{
+  text-align: center;
+  font-size: 80%;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+/* -----Cards-----*/
+/*.card-01{*/
+  /*background-color: white;*/
+  /*border-radius: 8px;*/
+  /*margin-top: 20px;*/
+  /*box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);*/
+  /*border-top: 30px solid #207eb7;*/
+  /*height:340px;*/
+  /*margin-bottom: 50px;*/
+/*}*/
+/*.card-02{*/
+/*background-color: white;*/
+/*border-radius: 8px;*/
+/*margin-top: 20px;*/
+/*box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);*/
+/*border-left: 8px solid #1e4380;*/
+/*height:340px;*/
+/*margin-bottom: 50px;*/
+/*}*/
+/*.card-03{*/
+/*background-color: white;*/
+/*border-radius: 8px;*/
+/*margin-top: 20px;*/
+/*box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);*/
+/*border-left: 8px solid #6fc3c6;*/
+/*height:340px;*/
+/*margin-bottom: 50px;*/
+/*}*/
+.card-header-01,
+.card-header-02,
+.card-header-03{
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 80px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+
+.card-header-01{
+  background-color: #207eb7;
+}
+.card-header-02{
+  background-color: #1e4380;
+}
+.card-header-03{
+  background-color: #6fc3c6;
+}
+.card-bottom{
+  height: auto;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  box-shadow: 0 7px 20px 0 rgba(0,0,0,0.2);
+  padding-top: 8px;
+  padding-left: 14px;
+  padding-right: 6px;
+  padding-bottom: 16px;
+}
+.card-content{
+  border-radius: 16px;
+  background-color: white;
+}
+
+.card-content:hover{
+  box-shadow: 0 12px 27px 0 rgba(0,0,0,0.08);
+  margin-top: 10px;
+  -webkit-transition: box-shadow 0.5s, margin-top 0.5s;
+
+}
+.card-content{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/*.card-content{*/
+  /*padding-left: 14px;*/
+  /*padding-right: 8px;*/
+  /*padding-top: 8px;*/
+/*}*/
+.card-h3,
+.card-h3-02,
+.card-h3-03{
+  color: white;
+}
+
+.card-h3{
+  padding-top: 30px;
+  font-size: 110%;
+}
+.card-h3-02{
+  padding-top: 20px;
+  padding-bottom: 7px;
+  font-size: 100%;
+  line-height: 100%;
+}
+.card-h3-03{
+  padding-top: 8px;
+  padding-bottom: 3px;
+  font-size: 95%;
+}
+.card-h3 a:visited,
+.card-h3 a:link{
+  color: white;
+  font-weight: 700;
+  font-style: unset;
+  font-size: 80%;
+}
+
+.card-h3-02 a:visited,
+.card-h3-02 a:link{
+  color: white;
+  font-weight: 700;
+  font-style: unset;
+  font-size: 80%;
+
+}
+.card-h3-03 a:visited,
+.card-h3-03 a:link{
+  color: white;
+  font-weight: 700;
+  font-style: unset;
+  font-size: 80%;
+
+}
+
+.card-h4{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #555555;
+  font-size: 80%;
+  line-height: 150%;
+}
+.card-h4 span{
+  color: #135187;
+  font-size: 100%;
+  line-height: 150%;
+  font-weight: 500;
+}
+.assignee-02{
+  letter-spacing: -0.9px;
+  word-spacing: -0.5px;
+  font-size: 68%;
+  line-height: 150%;
+}
+.assignee-03{
+  letter-spacing: -0.5px;
+  font-size: 70%;
+  line-height: 150%;
+}
+.text-abstract{
+  color: #555555;
+  font-size: 75%;
+  line-height: 150%;
+  font-weight: lighter;
+  margin: 0 3px 0 3px;
+}
+.text-abstract-box-1 {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-right: 8px;
+  height: 116px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.text-abstract-box-2 {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-right: 8px;
+  max-height: 118px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.text-abstract-box-3 {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin-right: 8px;
+  max-height: 118px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.text-abstract-box-1::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 4px;
+}
+.text-abstract-box-1::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+}
+.text-abstract-box-1::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0;
+  background: rgba(0,0,0,0.1);
+}
+.text-abstract-box-2::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 4px;
+}
+.text-abstract-box-2::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+}
+.text-abstract-box-2::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0;
+  background: rgba(0,0,0,0.1);
+}
+.text-abstract-box-3::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 4px;
+}
+.text-abstract-box-3::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+}
+.text-abstract-box-3::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0;
+  background: rgba(0,0,0,0.1);
+}
+.assess-btn{
+  vertical-align: center;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.btn-assess:link,
+.btn-assess:visited,
+input[type=submit]{
+  background-color: #f7931e;
+  border: 1px solid #f7931e;
+  color: #fff;
+  margin-right: 15px;
+  font-size:80%;
+}
+
+.btn-assess:hover,
+.btn-assess:active {
+  border: 1px solid #fff;
+}
+
+
+
