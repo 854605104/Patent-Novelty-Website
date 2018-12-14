@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Assess New Patent</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="You can assess your new Patent through the data-driven assessment system.">
+
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style_for_instruction_start_page.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style_for_instruction_patent_page.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/patent03.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700,800" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://d3js.org/d3.v3.js"></script>
+    <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+
+
+</head>
+<body>
+    <header>
+        <nav class="nav-box">
+            <div class="row">
+                <a href="https://idc.sutd.edu.sg/">
+                    <img src="resources/img/IDC.png" alt="IDC Logo" class="logo2">
+                </a>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Instruction_start_page.html">Demo</a></li>
+                    <li><a href="how_it_works.html">How it works</a></li>
+                    <li><a href="https://idc.sutd.edu.sg/">About us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header-box">
+            <h1 class="header-h1">Patent Novelty and Value</h1>
+        </div>
+    </header>
+
+    <section class="instruction-patent">
+        <div class="row">
+            <div class="row assess-result-card">
+                <div class="row">
+                    <h3 class="assess-result-card-title" style="padding-left: 0">
+                        Assessment Result
+                    </h3>
+                    <div class="text-result-card">
+                        <p>Your assess result is as shown. <i class="fa fa-square-o"></i> is where the patent is located.</p>
+                        <p>The deeper the color of the map, the higher the potential value your patent may have.</p>
+                        <br>
+                        <p>Now you can choose to:</p>
+                    </div>
+                </div>
+                <div class="row buttons">
+                    <a href="index.html" class="btn btn-start-to-use">
+                        <p class="btn-text">Start to use</p>
+                    </a>
+                    <a href="how_it_works.html" class="btn btn-learn-more">
+                        <p class="btn-text">Learn More</p>
+                    </a>
+                    <a href="Instruction_start_page.html" class="btn btn-try-again">
+                        <p class="btn-text">Try Again</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col span-1-of-2 patent-position" >
+            <div class="patent-position-card" id="interact">
+                <h3 class="text-patent-position">Assess Result of <span>Patent 4793895</span></h3>
+                <div class="row days-hours-heatmap">
+                    <svg role="heatmap" class="heatmap col span-9-of-12"></svg>
+                    <div class="col span-3-of-12">
+                        <img src="resources/img/gradient%20bar.png"class="heatmap-bar">
+                    </div>
+                </div>
+                <div class="row">
+                    <h4 class="text-position"><i class="fa fa-square-o"></i> Current Patent Position</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col span-1-of-2 patent-information">
+            <div class="row patent-information-card">
+                <div class="row">
+                    <h3 class="assess-result-card-title">
+                        More About The Patent
+                    </h3>
+                </div>
+                <div class="card-patent-content">
+                    <div>
+                        <h3 style="font-size: 95%;line-height: 105%;padding-bottom: 3px"><a style="color: #135187" href="https://patents.google.com/patent/US9171342B2/en?oq=9171342" >In situ conductivity monitoring technique for chemical/mechanical planarization endpoint detection</a></h3>
+                    </div>
+                    <div>
+                        <h4 class="card-h4">Patent ID:
+                            <span>4793895</span>
+                        </h4>
+                        <h4 class="card-h4">Grant Date:
+                            <span>1988-12-27</span>
+                        </h4>
+                        <h4 class="card-h4">Assignee:
+                            <span>International Business Machines Corp</span>
+                        </h4>
+                        <h4 class="card-h4">Abstract:</h4>
+                        <div class="text-abstract-box">
+                            <p class="text-abstract-02" style="font-size: 75%">An apparatus and method for monitoring the conductivity of a semiconductor wafer during the course of a polishing process. A polishing pad that contacts the wafer has an active electrode and at least one passive electrode, both of which are embedded in the polishing pad. A detecting device is connected to the active and passive electrodes for monitoring the current between the electrodes as the wafer is lapped by the polishing pad. The etch endpoint of the wafer is determined as a function of the magnitude of the current flow.
+                            </p>
+                        </div>
+                        <h4 class="card-h4">Related Products:</h4>
+                        <div class="row">
+                            <p class="text-products col span-1-of-2" style="font-size: 80%; text-align: justify-all;">This is one of the most valuable patents in the world. The patent royalty is more than billions of dollars per year! It became the standard for flattening in high-density semiconductor manufacturing in the 1990s.</p>
+                            <img class="col span-1-of-2" src="resources/img/Patent03.png" alt="" style="width: 40%;padding-left: 4px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
